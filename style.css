@@ -3,5 +3,91 @@
     padding: 0;
 }
 body{
-    background-color: #e5ebeb;
+    background-color: azure;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* max-width: 1000px; */
+    /* margin: 0 auto;
+    padding: 0; */
 }
+
+/* full project container starts */
+.container{
+    max-width: 1000px;
+    background-color: #e5ebeb ;
+    margin: 0 auto;
+    padding: 5px 20px;
+}
+/* header starts */
+header{
+
+}
+.profile_img{
+    width: 60px;
+    height: 80px;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 3px;
+    float: left;
+}
+.profile_img:hover{
+    width: 65px;
+    height: 85px;
+    border: 3px solid white;
+    border-radius: 40%;
+    padding: 5px;
+    transition: 2s;
+}
+.header_name{
+    float: left;
+    margin: 18px 0px 0px 30px;
+    padding: 10px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #4b1414;
+}
+.header_details{
+    float: right;
+    padding: 15px 15px 0px 0px;
+}
+.header_details a{
+    text-decoration: none;
+    color: #1e1e6e;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.header_details a:hover{
+    color: brown;
+    transition: 1s;
+    font-size: 1rem;
+    font-style: italic;
+    background-color: #e4e1e1;
+    text-decoration: underline;
+}
+/* header ends */
+.clear_div{
+    clear: both;
+}
+.header_line{
+    border: 3px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 10px auto;
+}
+/* full project container ends */
+
+/* main area starts */
+main{
+
+}
+.personal_area{
+
+}
+.personal_heading{
+    float: left;
+}
+.personal_details{
+    float: right;
+}
+
+/* main area ends */
