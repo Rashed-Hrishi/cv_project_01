@@ -10,39 +10,35 @@ body{
     /* margin: 0 auto;
     padding: 0; */
 }
+h1,h2,h3,h4,h5,h6{
+    color: #4b1414;
+}
+.common_hr{
+    width: 100%;
+    border: 2px solid black;
+    border-bottom: none;
+    margin: 10px auto;
+}
+.header_line{
+    border: 3px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 10px auto;
+}
+.clear_div{
+    clear: both;
+}
 
-/* full project container starts */
+/* full project container starts 
+--------------------------------
+--------------------------------*/
 .container{
     max-width: 1000px;
     background-color: #e5ebeb ;
     margin: 0 auto;
     padding: 5px 20px;
 }
-/* carrier objectives area starts */
-.carrier_area{
 
-}
-.carrier{
-
-}
-.left_area{
-
-}
-.left_area h3{
-    /* text-align: center; */
-    /* padding-top: 40px; */
-}
-.right_area{
-
-}
-.right_area ul{
-
-}
-.right_area ul li{
-    list-style-type: square;
-    line-height: 1.3rem;
-}
-/* carrier objectives area ends */
 /* header starts */
 header{
 
@@ -78,9 +74,6 @@ header{
     padding-left: 10px;
     transition: 2s;
 }
-h1,h2,h3,h4,h5,h6{
-    color: #4b1414;
-}
 .header_details{
     float: right;
     padding: 15px 15px 0px 0px;
@@ -103,25 +96,9 @@ h1,h2,h3,h4,h5,h6{
     text-decoration: underline;
 }
 /* header ends */
-.clear_div{
-    clear: both;
-}
-.header_line{
-    border: 3px solid black;
-    border-bottom: none;
-    width: 100%;
-    margin: 10px auto;
-}
-/* full project container ends */
 
-/* main area starts */
+/* ----main area starts---- */
 main{
-
-}
-.personal_area{
-
-}
-.personal{
 
 }
 .left_area{
@@ -132,10 +109,45 @@ main{
     float: left;
     width: 70%;
 }
-.common_hr{
-    width: 100%;
-    border: 2px solid black;
-    border-bottom: none;
-    margin: 10px auto;
+
+/* carrier objectives area starts */
+.carrier_area{
+
 }
-/* main area ends */
+.carrier{
+
+}
+.left_area{
+
+}
+.left_area h3{
+    /* text-align: center; */
+    /* padding-top: 40px; */
+}
+.right_area{
+
+}
+.right_area ul{
+
+}
+.right_area ul li{
+    list-style-type: square;
+    line-height: 1.3rem;
+}
+/* carrier objectives area ends */
+
+/* personal area starts */
+.personal_area{
+
+}
+.personal{
+
+}
+/* personal area ends */
+
+/* ----main area ends---- */
+
+/* full project container ends
+--------------------------------
+--------------------------------*/
+
