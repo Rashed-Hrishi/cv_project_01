@@ -18,6 +18,30 @@ body{
     margin: 0 auto;
     padding: 5px 20px;
 }
+/* carrier objectives area starts */
+.carrier_area{
+
+}
+.carrier{
+
+}
+.left_area{
+
+}
+.left_area h3{
+
+}
+.right_area{
+
+}
+.right_area ul{
+
+}
+.right_area ul li{
+    list-style-type: square;
+    line-height: 1.3rem;
+}
+/* carrier objectives area ends */
 /* header starts */
 header{
 
@@ -43,12 +67,25 @@ header{
     margin: 18px 0px 0px 30px;
     padding: 10px;
 }
+.italic{
+    color: #2b2b74;
+    font-style: italic;
+}
+.desination_left:hover{
+    color: #085014;
+    text-shadow: 1px 1px 2px crimson;
+    padding-left: 10px;
+    transition: 2s;
+}
 h1,h2,h3,h4,h5,h6{
     color: #4b1414;
 }
 .header_details{
     float: right;
     padding: 15px 15px 0px 0px;
+}
+.header_details h4{
+    text-decoration: underline;
 }
 .header_details a{
     text-decoration: none;
@@ -83,11 +120,21 @@ main{
 .personal_area{
 
 }
-.personal_heading{
-    float: left;
-}
-.personal_details{
-    float: right;
-}
+.personal{
 
+}
+.left_area{
+    float: left;
+    width: 30%;
+}
+.right_area{
+    float: left;
+    width: 70%;
+}
+.common_hr{
+    width: 100%;
+    border: 2px solid black;
+    border-bottom: none;
+    margin: 10px auto;
+}
 /* main area ends */
