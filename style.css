@@ -109,6 +109,10 @@ main{
     float: left;
     width: 70%;
 }
+.right_area ul li{
+    list-style-type: square;
+    line-height: 1.5rem;
+}
 
 /* carrier objectives area starts */
 .carrier_area{
@@ -127,14 +131,101 @@ main{
 .right_area{
 
 }
-.right_area ul{
+.carrier_area .right_area ul{
 
 }
-.right_area ul li{
-    list-style-type: square;
-    line-height: 1.3rem;
+.carrier_area .right_area ul li{
+    /* list-style-type: square;
+    line-height: 1.5rem; */
 }
 /* carrier objectives area ends */
+
+/* carrier summary area starts */
+.summary_area{
+
+}
+.summary{
+
+}
+.summary_area .summary .right_area ul{
+
+}
+.summary_area .summary .right_area ul li{
+    
+}
+/* carrier summary area ends */
+
+/* special qualification area starts */
+.special_area{
+
+}
+.special_qualification{
+
+}
+.special_qualification .left_area{
+
+}
+.special_qualification .left_area h3{
+
+}
+.special_qualification .right_area{
+
+}
+.special_qualification .right_area ul{
+
+}
+.special_qualification .right_area li{
+
+}
+/* special qualification area ends */
+
+/* job experience area starts */
+.job_area{
+
+}
+.experience{
+
+}
+.experience .left_area{
+    
+}
+.experience .left_area h3{
+    
+}
+.experience .right_area h4{
+    color: #1b111b;
+    text-align: center;
+    text-decoration: underline;
+}
+.experience .right_area h5{
+
+}
+/* .experience .right_area address img{
+    width: 15px;
+    height: 20px;
+} */
+/* address img{
+    width: 15px;
+    height: 20px;
+} */
+.company_logo{
+    width: 15px;
+    height: 20px;
+    float: left;
+}
+.company_name{
+    float: left;
+    width: 50%;
+    padding-left: 10px;
+}
+address a{
+    text-decoration: none;
+}
+.palmal_address{
+    float: left;
+    width: 100%;
+}
+/* job experience area ends */
 
 /* personal area starts */
 .personal_area{
