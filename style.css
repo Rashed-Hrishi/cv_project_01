@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,h6{
     border-bottom: none;
     margin: 10px auto;
 }
-.header_line{
+.header_hr{
     border: 3px solid black;
     border-bottom: none;
     width: 100%;
@@ -215,15 +215,22 @@ main{
 }
 .company_name{
     float: left;
-    width: 50%;
+    width: 70%;
     padding-left: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 address a{
     text-decoration: none;
 }
-.palmal_address{
+.company_address{
     float: left;
     width: 100%;
+}
+.job_duties{
+    color: #160836;
+    font-size: 0.8rem;
+    margin-top: 5px;
+    text-decoration: underline;
 }
 /* job experience area ends */
 
@@ -241,4 +248,16 @@ address a{
 /* full project container ends
 --------------------------------
 --------------------------------*/
-
+.half_width{
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+}
+.right_area1{
+    width: 50%;
+    float: left;
+}
+.right_area2{
+    width: 50%;
+    float: left;
+}
