@@ -276,9 +276,9 @@ float: left;
 /* education area ends */
 
 /* major courses studied in cse area starts */
-.courses_area .right_area table{
+.right_area table{
     border: 1px solid black;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 table, tr, th, td{
     border: 1px solid #3f0b0b;
@@ -288,8 +288,12 @@ table, tr, th, td{
 th{
     background-color: blanchedalmond;
 }
-
 /* major courses studied in cse area ends */
+
+/* training summary area starts */
+
+
+/* training summary area ends */
 
 /* personal area starts */
 .personal_area{
