@@ -279,6 +279,8 @@ float: left;
 .right_area table{
     border: 1px solid black;
     margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
 }
 table, tr, th, td{
     border: 1px solid #3f0b0b;
