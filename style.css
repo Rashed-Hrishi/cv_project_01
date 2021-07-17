@@ -304,6 +304,20 @@ th{
 .personal{
 
 }
+.right_area2{
+    width: 70%;
+    float: right;
+}
+.table_personal{
+    width: 100%;
+}
+.table{
+    border: none;
+    outline: none;
+}
+.table tr{
+    text-align: left;
+} 
 /* personal area ends */
 
 /* ----main area ends---- */
