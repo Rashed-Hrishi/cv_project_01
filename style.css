@@ -320,10 +320,38 @@ th{
 } 
 /* personal area ends */
 
+/* reference area starts */
+.Reference_area{
+
+}
+.reference{
+
+}
+.right_area .ref_1{
+    float: left;
+    width: 50%;
+}
+.ref_2{
+    float: right;
+    width: 50%;
+}
+/* reference area ends */
+
 
 /* declaration area starts */
 .declaration_area .declaration .right_area p{
     text-align: justify;
+}
+.signature_cv{
+    
+}
+.signature{
+    width: 80px;
+    height: 40px;
+    margin-top: 10px;
+}
+.signature_cv p{
+    text-decoration: overline;
 }
 /* declaration area ends */
 
